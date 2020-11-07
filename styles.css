@@ -1,0 +1,17 @@
+li {
+    margin-top: 10px;
+}
+
+li::before {
+    content: "";
+    background: darkcyan;
+    padding: 5px;
+    color: white;
+}
+
+li::after {
+    content: "Segar Sekali";
+    background: green;
+    padding: 5px;
+    color: white;
+}
